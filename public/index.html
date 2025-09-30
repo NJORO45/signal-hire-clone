@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./main.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"/>
+    <!--favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+    <!--remix icon -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
+
+    <title>Document</title>
+</head>
+<body>
+   <div class="z-40 fixed w-full bg-YellowSun text-white text-sm font-bold text-center p-2">
+     <p>🚀Say Goodbye to Limits – Upgrade to Unlimited Now!🚀</p>
+     <a href="#" class="underline">GET UNLIMITED PACKAGE</a>
+   </div>
+   <div id="mainContainer" class="z-40 fixed mt-14 w-screen flex justify-between bg-slate-100  items-center h-20 px-4 transition-all duration-300 shadow-lg">
+    <div>
+        <img src="../img/logo.svg" alt="">
+    </div>
+
+   <div class=" hidden md:flex gap-2 justify-between  w-11/12">
+        <div class="flex gap-12 text-lg font-medium  items-center mx-auto">
+            <a href="">Why SignalHire</a>
+            <a href="">Pricing</a>
+            <a href="">Companies</a>
+            <a href="">Profile</a>
+        </div>
+        <div class="flex text-white gap-2">
+            <a href="" class=" px-3 py-1 border-2 border-blue-500 text-blue-500 rounded-xl">Sign In</a>
+            <a href=""  class="bg-blue-500 px-3 py-1 rounded-lg transition duration-300  border-2 hover:bg-slate-100  hover:border-blue-500 hover:text-blue-500 ">Sign Up</a>
+        </div>
+   </div>
+   <div class="border border-slate-300 px-3 py-2 rounded-lg cursor-pointer flex md:hidden" id="hamburgerMenu">
+        <i id="icon" class="ri-menu-line text-3xl transition duration-300"></i>
+   </div>
+   </div>
+   <div id="menu" class=" hidden flex-col pt-40 pb-2 gap-4 bg-slate-100 w-full justify-center md:hidden shadow-lg transition-all duration-500 ">
+        <a href="" class="text-center font-medium hover:text-blue-400">Why SignalHire</a>
+        <a href="" class="text-center font-medium hover:text-blue-400">Pricing</a>
+        <a href="" class="text-center font-medium hover:text-blue-400">Companies</a>
+        <a href="" class="text-center font-medium hover:text-blue-400">Profile</a>
+        <div class="flex text-white gap-2  justify-center">
+            <a href="" class=" px-3 py-1 border-2 border-blue-500 text-blue-500 rounded-xl transition duration-300 hover:bg-blue-500 hover:text-white">Sign In</a>
+            <a href=""  class="bg-blue-500 px-3 py-1 rounded-lg transition duration-300  border-2 hover:bg-slate-100  hover:border-blue-500 hover:text-blue-500 ">Sign Up</a>
+        </div>
+   </div>
+   <div class="w-full  pt-40  px-6 ">
+     <div class="flex flex-col md:flex-row bg-blue-50 px-8 py-2 rounded-lg  gap-6 ">
+        <div class="flex flex-col px-4 gap-8 w-full md:w-1/2 justify-center">
+            <h4 class="text-5xl font-extrabold">Find Valid Emails 
+            and Phone Numbers</h4>
+            <p class="text-xl">Real-time verified contact info for recruiters,
+            sales professionals, and marketers.  
+            Personal & work contacts.</p>
+            <div class="mt-6">
+            <a href="#" class="bg-blue-500 text-white px-3 py-2 rounded-lg">Start free trial</a>
+        </div>
+        </div>
+        
+        <div class="w-full md:w-1/2 flex justify-center">
+            <img src="../img/index_1108x986_anima.webp" alt="" class="h-[500px]">
+        </div>
+     </div>
+   </div>
+
+   <div class="px-3 py-2 border m-4 rounded-lg"> 
+    <div class="flex flex-col md:flex-row justify-between mx-10 space-y-4 ">
+        <p class="text-xl ">SignalHire is used by <span class="text-blue-400">3 000 000+ </span> professionals and leading companies</p>
+        <div class="flex gap-20 w-full justify-center">
+            <div class="flex flex-col">
+                <img src="../img/Capterra-logo2@3x.svg" alt="" class="h-6">
+                <div class="flex gap-2">
+                    <i class="ri-star-fill text-orange-500"></i>
+                    <i class="ri-star-fill text-orange-500"></i>
+                    <i class="ri-star-fill text-orange-500"></i>
+                    <i class="ri-star-fill text-orange-500"></i>
+                    <i class="ri-star-half-line text-orange-500"></i>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="../img/google-logo_color.svg" alt="" class="h-6">
+                <div class="flex gap-2">
+                    <i class="ri-star-fill text-orange-500"></i>
+                    <i class="ri-star-fill text-orange-500"></i>
+                    <i class="ri-star-fill text-orange-500"></i>
+                    <i class="ri-star-fill text-orange-500"></i>
+                    <i class="ri-star-half-line text-orange-500"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="w-full grid gap-4 grid-cols-2 md:grid-cols-4 mx-auto ">
+        <div class=" mx-auto">
+            <img src="../img/micr.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/google.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/face.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/tesla.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/intel.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/amazon.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/github.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/juve.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/deloitte.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/accenture.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/mongo.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/salesforce.svg" alt="" >
+        </div>
+    </div>
+   </div>
+   <div class="text-center p-8">
+    <p class="text-4xl font-bold">SignalHire Email Finder 
+       possibilities</p>
+   </div>
+   <div class="flex flex-col md:flex-row p-6 bg-gradient-to-tr from-slate-100 md:from-blue-100 h-auto md:h-[400px] mb-8">
+      <div class="flex flex-col w-full md:w-1/2  items-center  my-10 mx-6 space-y-4">
+        <h4 class="text-3xl font-extrabold">Verified emails only</h4>
+        <p class="text-xl">All emails are found in a real-time mode. Before displaying 
+            any contact details on the screen they are being verified 
+            via 3rd-party verification tools. We’ve done the job for you!</p>
+      </div>
+      <div class="w-full md:w-1/2 h-full flex justify-center items-center">
+        <img src="../img/profile_card2.svg" alt="" class="h-full">
+      </div>
+   </div>
+   <div class="flex flex-col md:flex-row-reverse p-6 bg-gradient-to-tl from-slate-100 md:from-blue-100 h-auto md:h-[400px] mb-8">
+      <div class="flex flex-col w-full md:w-1/2  items-center  my-10 mx-6 space-y-4">
+        <h4 class="text-3xl font-extrabold">Verified emails only</h4>
+        <p class="text-xl">All emails are found in a real-time mode. Before displaying 
+            any contact details on the screen they are being verified 
+            via 3rd-party verification tools. We’ve done the job for you!</p>
+      </div>
+      <div class="w-full md:w-1/2 h-full flex justify-center items-center">
+        <img src="../img/profile_cards_example.svg" alt="" class="h-full">
+      </div>
+   </div>
+   <div class="flex flex-col md:flex-row p-6 bg-gradient-to-tr from-slate-200 md:from-slate-50 h-auto md:h-[400px] mb-8">
+      <div class="flex flex-col w-full md:w-1/2  items-center  my-10 mx-6 space-y-4">
+        <h4 class="text-3xl font-extrabold">Find email addresses 
+in bulk</h4>
+        <p class="text-xl">Unlike other tools, SignalHire allows its users seek emails 
+in bulk for up to 1000 people at a time! Finding emails 
+has become 1000X faster!</p>
+      </div>
+      <div class="w-full md:w-1/2 h-full flex justify-center items-center">
+        <img src="../img/profile_card3@3x.svg" alt="" class="h-full">
+      </div>
+   </div>
+   <div class="flex flex-col md:flex-row-reverse p-6 h-auto md:h-[400px]  mb-8">
+      <div class="flex flex-col w-full md:w-1/2  items-center  my-10 mx-6 space-y-4">
+        <h4 class="text-3xl font-extrabold">Use our Free Extension 
+on ANY website on the WEB</h4>
+        <p class="text-xl">Find anyone’s verified data by name: emails, phone numbers, social profiles on LinkedIn, Facebook, Twitter, GitHub, MeetUp, Dribble, Gmail, Xing, Quora etc. 
+            Any website on the WEB. Assign individuals to your jobs in one click.</p>
+            <div class="w-full flex items-start">
+                <a href="#" class="bg-blue-500 text-white px-3 py-2 rounded-lg">Install Chrome Extension</a>
+            </div>
+      </div>
+      <div class="w-full md:w-1/2 h-full flex justify-center items-center">
+        <img src="../img/profile_card4.svg" alt="" class="h-full">
+      </div>
+   </div>
+   
+   <div class="text-center p-8">
+    <p class="text-5xl font-bold">Our Solutions</p>
+   </div>
+   <div class="w-full flex flex-col md:flex-row gap-4 justify-center items-center p-8">
+    <div class="w-full sm:w-1/2 gap-2 flex flex-col md:flex-row border-2 hover:bg-blue-50 p-6 rounded-2xl">
+        <div class=" mx-auto my-auto">
+            <img src="../img/sales@3x.svg" alt="" class="w-28 bg-blue-100 rounded-xl p-2">
+        </div>
+        <div class="flex flex-col justify-center space-y-4 p-6">
+            <h4 class="text-center text-xl font-bold">Recruiting</h4>
+            <p class="text-center">Source ideal candidates with a recruitment 
+                database fueled by best-in-class business 
+                contact data.</p>
+            <div class=" flex flex-row  p-1 w-max mx-auto text-blue-500 hover:bg-blue-100 rounded-xl">
+                <a href="#">Go to recruiting solutions</a>
+                <i class="ri-arrow-right-fill"></i>
+            </div>
+        </div>
+    </div>
+    <div class="w-full sm:w-1/2 gap-2 flex flex-col md:flex-row border-2 hover:bg-green-50 p-4 rounded-2xl">
+        <div class=" mx-auto my-auto">
+            <img src="../img/sales@3x.svg" alt="" class="w-28 bg-green-100 rounded-xl p-2">
+        </div>
+        <div class="flex flex-col justify-center space-y-4 p-8">
+            <h4 class="text-center text-xl font-bold">Recruiting</h4>
+            <p class="text-center">Source ideal candidates with a recruitment 
+                database fueled by best-in-class business 
+                contact data.</p>
+            <div class=" flex flex-row  p-1 w-max mx-auto text-green-500 hover:bg-green-100 rounded-xl">
+                <a href="#">Go to recruiting soluions</a>
+                <i class="ri-arrow-right-fill"></i>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="text-center p-8">
+    <p class="text-4xl font-bold">What our customers say about us</p>
+   </div>
+   <div class="w-full p-4 flex flex-col md:flex-row space-y-12 md:space-x-12">
+    <div class="w-full md:w-1/2 space-y-6">
+        <div class="flex flex-row gap-2 hover:shadow-xl p-4 rounded-xl">
+            <img src="../img/nicholas.png" alt="" class="w-14 h-14">
+            <div class="flex flex-col my-auto text-sm">
+                <span class="font-bold text-slate-600">Nicholas V. DeAgostino</span>
+                <p class="text-slate-600">Business Owner <span class="text-slate-400">DeAgostino Legal Group</span></p>
+            </div>
+        </div>
+        <div class="flex flex-row gap-2 hover:shadow-xl p-4 rounded-xl">
+            <img src="../img/misty malonzo.png" alt="" class="w-14 h-14">
+            <div class="flex flex-col my-auto text-sm">
+                <span class="font-bold text-slate-600">Misty Malonzo</span>
+                <p class="text-slate-600">Talent Consultant <span class="text-slate-400">EY</span></p>
+            </div>
+        </div>
+        <div class="flex flex-row gap-2 hover:shadow-xl p-4 rounded-xl">
+            <img src="../img/dennis huet.png" alt="" class="w-14 h-14">
+            <div class="flex flex-col my-auto text-sm">
+                <span class="font-bold text-slate-600">Dennis Huet</span>
+                <p class="text-slate-600">Head of VIP Relations <span class="text-slate-400">The Great Minds Group</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="w-full md:w-1/2 relative flex items-center p-8 my-auto">
+        <i class="ri-double-quotes-l absolute text-7xl text-blue-100 -top-6 left-0 md:top-12 md:-left-2"></i>
+       <p class="absolute z-5">
+         Loving this service and the ability to find professional’s email addresses and
+        phone numbers. My SignalHire representative has been very helpful and responsive
+        in getting me setup for this program and following up any customer service questions
+        I had thereafter. Would highly recommend SignalHire!
+       </p>
+                                
+    </div>
+   </div>
+   <div class="w-full p-10">
+      <div class="w-full flex flex-col md:flex-row bg-[#48c2a9] mx-auto p-8 rounded-xl text-white">
+        <div class="space-y-4 px-6 w-full md:w-3/6  p-4 m-auto">
+            <h5 class="text-5xl font-bold">Get Started for Free</h5>
+            <p class="text-xl">Connect directly with the right person 
+                using the world's largest and most accurate 
+                database of emails and phone numbers.
+            </p>
+        </div>
+        <div class="bg-[#d1f0e9]  w-full md:w-3/6  lg:w-2/6 flex flex-col h-max  mx-auto my-auto p-8 rounded-xl space-y-4">
+            <input type="email" placeholder="Enter your email" class="placeholder:text-[#48c2a9] px-4 py-2 rounded-xl outline-none text-[#48c2a9]">
+            <button class="bg-[#48c2a9] px-3 py-2 rounded-xl text-lg font-medium hover:bg-[#41bda4]">Start to use</button>
+        </div>
+      </div>
+   </div>
+   <div class="text-center p-8">
+    <p class="text-4xl font-bold">Common Questions & Answers 
+        about SignalHire Email Finder</p>
+   </div>
+   <div class="w-full px-8 py-4">
+    <div class="flex flex-col space-y-4">
+        <div class="flex  flex-col bg-gray-200 px-4 py-2 rounded-xl border-2 border-slate-300">
+            <div class="flex justify-between">
+                <p>How to find an email using the SignalHire email finder?</p>
+                <i id="dropDownPointer" class="ri-arrow-down-s-line text-2xl cursor-pointer"></i>
+            </div>
+            <div id="descendant" class="flex flex-col hidden transition-all duration-300 ease-in-out">
+                <span>1. Sign up with SignalHire using your business email address</span>
+                <span>2. Install Browser Extension</span>
+                <span>3. Run the extension on ANY website on the internet to find an email  address of a person.</span>
+            </div>
+        </div>
+        <div class="flex  flex-col bg-gray-200 px-4 py-2 rounded-xl border-2 border-slate-300">
+            <div class="flex justify-between">
+                <p>What is the best email finder?</p>
+                <i id="dropDownPointer" class="ri-arrow-down-s-line text-2xl"></i>
+            </div>
+            <div id="descendant" class="flex flex-col hidden transition-all duration-300 ease-in-out">
+                <span>With a hit rate above 85% and data accuracy of over 95%, SignalHire is among the best email finders on the market. 
+                    Its browser extension allows you to quickly find relevant emails on any website on the Internet
+                </span>
+            </div>
+        </div>
+        <div class="flex  flex-col bg-gray-200 px-4 py-2 rounded-xl border-2 border-slate-300">
+            <div class="flex justify-between">
+                <p>SignalHire extension for Zoho Recruit</p>
+                <i id="dropDownPointer" class="ri-arrow-down-s-line text-2xl"></i>
+            </div>
+            <div id="descendant" class="flex flex-col hidden transition-all duration-300 ease-in-out">
+                <span>SignalHire browser extension (available in Chrome and Firefox web stores) is integrated with Zoho Recruit now!
+                </span>
+                <span>The extension allows you to enrich candidate profiles with their direct emails and phone numbers and export them
+                     from LinkedIn, Facebook, Twitter, or GitHub directly to your Zoho Recruit account.
+                </span>
+                <span>Once the extension installed and connected to your Zoho Recruit account, you can instantly find contact info for
+                     a candidate and then export candidate profile with found contacts. The profile will be automatically created and 
+                     matched with your existing fields in Zoho account. No need to manually create and copy & paste info anymore!
+                </span>
+                <span>The extension works with Chrome and Firefox browsers.
+                </span>
+            </div>
+        </div>
+        <div class="flex  flex-col bg-gray-200 px-4 py-2 rounded-xl border-2 border-slate-300">
+            <div class="flex justify-between">
+                <p>How does SignalHire's email finder differ from Email Hunter's?</p>
+                <i id="dropDownPointer" class="ri-arrow-down-s-line text-2xl"></i>
+            </div>
+            <div id="descendant" class="flex flex-col hidden transition-all duration-300 ease-in-out">
+                <span>The SignalHire email finder finds both personal and business emails across the web and matches them with real people,
+                     while Email Hunter’s only generates a business email address using common email patterns of a given company
+                </span>
+            </div>
+        </div>
+        <div class="flex  flex-col bg-gray-200 px-4 py-2 rounded-xl border-2 border-slate-300">
+            <div class="flex justify-between">
+                <p>How to find an email address on Linkedin</p>
+                <i id="dropDownPointer" class="ri-arrow-down-s-line text-2xl"></i>
+            </div>
+            <div id="descendant" class="flex flex-col hidden transition-all duration-300 ease-in-out">
+                <span>Use the SignalHire browser extension to find emails of over 85% of people on LinkedIn in just one click
+                </span>
+            </div>
+        </div>
+        <div class="flex  flex-col bg-gray-200 px-4 py-2 rounded-xl border-2 border-slate-300">
+            <div class="flex justify-between">
+                <p>Why is SignalHire better than oher extensions out there?</p>
+                <i id="dropDownPointer" class="ri-arrow-down-s-line text-2xl"></i>
+            </div>
+            <div id="descendant" class="flex flex-col hidden transition-all duration-300 ease-in-out">
+                <span>The SignalHire extension finds and verifies data in real time. It excludes outdated, irrelevant, 
+                    and invalid information, providing the accuracy of found emails above 95% with only a 3-5% bounce rate
+                </span>
+            </div>
+        </div>
+         <div class="flex  flex-col bg-gray-200 px-4 py-2 rounded-xl border-2 border-slate-300">
+            <div class="flex justify-between">
+                <p>I have a totally different qustion!</p>
+                <i id="dropDownPointer" class="ri-arrow-down-s-line text-2xl"></i>
+            </div>
+            <div id="descendant" class="flex flex-col hidden transition-all duration-300 ease-in-out">
+                <span>Please contact us at support@signalhire.com or give us a call at (+1) 650 385-8068
+                </span>
+            </div>
+        </div>
+   </div>
+   <div class="w-full  py-4 ">
+    <a href="#" class="flex justify-center mx-auto bg-blue-100 w-max text-blue-500 px-3 py-2 rounded-xl">See more questions</a>
+   </div>
+   <div class="text-center p-8">
+    <p class="text-4xl font-bold">Integration Partners</p>
+       <div class="w-full grid gap-4 grid-cols-2 md:grid-cols-4 mx-auto ">
+        <div class=" mx-auto">
+            <img src="../img/zoho@3x.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/jazz3x.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/cats@3x.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/loxo@3x-7.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/recruitee@3x-3.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/jooble@3x-9.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/salesforce@3x-2.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/active-campaign@3x-1.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/recruit@3x-3.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/job-adder3x-6.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/avionte@3x.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/pcrecruiter@3x.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/crelate@3x-4.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/pipedrive@3x-8.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/ceipal@3x-2.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/reply@3x-1.svg" alt="" >
+        </div>
+        <div class=" mx-auto">
+            <img src="../img/recruiterflow@3x.svg" alt="" >
+        </div>
+    </div>
+   </div>
+   <div class="flex flex-row bg-[#48c2a9] px-4 py-2 mb-2 text-white rounded-xl items-center">
+    <h1 class="w-1/12 text-xl font-bold">People search:</h1>
+    <div class="w-11/12 flex flex-wrap">
+        <span class="p-3 hover:font-bold cursor-pointer">A</span>
+        <span class="p-3 hover:font-bold cursor-pointer">B</span>
+        <span class="p-3 hover:font-bold cursor-pointer">C</span>
+        <span class="p-3 hover:font-bold cursor-pointer">D</span>
+        <span class="p-3 hover:font-bold cursor-pointer">E</span>
+        <span class="p-3 hover:font-bold cursor-pointer">F</span>
+        <span class="p-3 hover:font-bold cursor-pointer">G</span>
+        <span class="p-3 hover:font-bold cursor-pointer">H</span>
+        <span class="p-3 hover:font-bold cursor-pointer">I</span>
+        <span class="p-3 hover:font-bold cursor-pointer">J</span>
+        <span class="p-3 hover:font-bold cursor-pointer">K</span>
+        <span class="p-3 hover:font-bold cursor-pointer">L</span>
+        <span class="p-3 hover:font-bold cursor-pointer">M</span>
+        <span class="p-3 hover:font-bold cursor-pointer">N</span>
+        <span class="p-3 hover:font-bold cursor-pointer">O</span>
+        <span class="p-3 hover:font-bold cursor-pointer">P</span>
+        <span class="p-3 hover:font-bold cursor-pointer">Q</span>
+        <span class="p-3 hover:font-bold cursor-pointer">R</span>
+        <span class="p-3 hover:font-bold cursor-pointer">S</span>
+        <span class="p-3 hover:font-bold cursor-pointer">T</span>
+        <span class="p-3 hover:font-bold cursor-pointer">U</span>
+        <span class="p-3 hover:font-bold cursor-pointer">V</span>
+        <span class="p-3 hover:font-bold cursor-pointer">W</span>
+        <span class="p-3 hover:font-bold cursor-pointer">X</span>
+        <span class="p-3 hover:font-bold cursor-pointer">Y</span>
+        <span class="p-3 hover:font-bold cursor-pointer">Z</span>
+
+    </div>
+   </div>
+   <div class="w-full  bg-slate-100 mx-4  rounded-xl px-4 py-2">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 ">
+        <div class="flex flex-col space-y-4">
+            <h1 class="text-xl font-bold">Product</h1>
+            <span>Database</span>
+            <span>Browser Extension</span>
+            <span>SignalHire API</span>
+            <span>Lead Tracker</span>
+            <span>Email sequences</span>
+        </div>
+        <div class="flex flex-col space-y-4">
+            <h1 class="text-xl font-bold">Knowledge Hub</h1>
+            <span>Blog</span>
+            <span>Knowledge Base</span>
+            <span>Job Descriptions</span>
+            <span>Interview Questions</span>
+        </div>
+
+        <div class="flex flex-col space-y-4">
+            <h1 class="text-xl font-bold">Directories</h1>
+            <span>Companies Directory</span>
+            <span>People Directory</span>
+            <span>Find Resumes</span>
+            <span>Talent for Hire</span>
+            <span>Job Boards</span>
+        </div>
+
+        <div class="flex flex-col space-y-4">
+            <h1 class="text-xl font-bold">Legal & Privacy</h1>
+            <span>About Us</span>
+            <span>Terms Of Use</span>
+            <span>Privacy Policy</span>
+            <span>Profile Opt-Out</span>
+            <span>Do not sell my
+personal information</span>
+        </div>
+        <div class="flex flex-col space-y-4">
+            <h1 class="text-xl font-bold">Email Search</h1>
+            <span>Email Finding Tools</span>
+            <span>Linkedin Email Finder</span>
+            <span>Bulk Email Finder</span>
+            <span>Find Linkedin Profiles</span>
+        </div>
+        <div class="flex flex-col space-y-4">
+            <h1 class="text-xl font-bold">Contacts</h1>
+            <span>Phone<br>(+1)650 385-8068</span>
+            <span class="flex flex-nowrap">Email: <br>support@signalhire.com</span>
+            <div class="flex flex-row gap-2">
+                <i class="ri-linkedin-fill bg-white border-2 border-slate-300 px-2 py-1 text-2xl text-blue-600"></i>
+                <i class="ri-facebook-fill  bg-white border-2 border-slate-300 px-2 py-1 text-2xl"></i>
+                <i class="ri-twitter-x-line  bg-white border-2 border-slate-300 px-2 py-1 text-2xl"></i>
+            </div>
+        </div>
+    </div>
+    <div class=" bg-slate-200 flex  flex-col rounded-xl my-2">
+        <div class="flex flex-col mx-auto text-center p-4 ">
+            <span>2025 &copy; SignalHire Sp. z 0. 0.</span>
+        <span>SignalHire.com</span>
+        </div>
+    </div>
+   </div>
+</body>
+<script>
+    const hamburgerMenu = document.querySelector("#hamburgerMenu");
+    const dropDownPointer = document.querySelectorAll("#dropDownPointer");
+    
+    const icon = document.querySelector("#icon");
+    const mainContainer = document.querySelector("#mainContainer");
+    const menu = document.querySelector("#menu");
+    dropDownPointer.forEach(pointer => {
+        pointer.addEventListener("click",e =>{
+            e.currentTarget.classList.toggle('ri-arrow-up-s-line');
+            const child = e.currentTarget.parentElement.parentElement;
+            const descendant = child.querySelector("#descendant");
+            child.classList.toggle('bg-gray-300')
+            if(descendant.classList.contains('hidden')){
+                descendant.classList.remove('hidden');
+            }else{
+                descendant.classList.add('hidden')
+            }
+            console.log(descendant)
+            //const parent = child.querySelector()
+        });
+    });
+    hamburgerMenu.addEventListener("click",()=>{
+        if(icon.classList.contains('ri-menu-line')){
+            icon.classList.add('transition-transform', 'duration-300', 'rotate-180'); // animate on toggle
+            icon.classList.remove('ri-menu-line');
+            icon.classList.add('ri-close-large-line');
+        }else{
+            icon.classList.add('ri-menu-line');
+            icon.classList.remove('ri-close-large-line');
+        }
+         // Reset rotation after animation
+        setTimeout(() => {
+            icon.classList.remove('rotate-180');
+        }, 300);
+        if(mainContainer.classList.contains("shadow-lg")){
+            mainContainer.classList.remove("shadow-lg");
+        }else{
+            mainContainer.classList.add("shadow-lg");
+
+        }
+        if(menu.classList.contains("flex")){
+            menu.classList.add('opacity-0');
+            menu.classList.add('h-max');
+            setTimeout(()=>{
+                menu.classList.remove('flex');
+                menu.classList.add('hidden');
+            },50);
+        }else{
+            menu.classList.remove('opacity-0');
+            menu.classList.remove('h-max');
+            setTimeout(()=>{
+                menu.classList.add('flex');
+                menu.classList.remove('hidden');
+            },50);
+        }
+    });
+</script>
+</html>
